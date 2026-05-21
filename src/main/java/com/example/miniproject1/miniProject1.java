@@ -69,7 +69,7 @@ public class miniProject1 extends Application {
             String password = passwordField.getText();
             if (username.isEmpty() || password.isEmpty()) {
                 errorMsg.setText("Username and password are required!");
-            } else if (!username.equals("manager") || !password.equals("1234")) {
+            } else if (!username.equals("admin") || !password.equals("1234")) {
                 errorMsg.setText("Incorrect username and/or password!");
             } else {
                 primaryStage.close();
